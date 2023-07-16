@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: fit-content;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -331,8 +327,8 @@ footer {
   header { 
     align-items: center;
     margin: auto; 
-    padding: 1.5rem 0;
-    width: 24rem;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
   }
 
   .logo-image img {
@@ -406,7 +402,7 @@ footer {
   }
 
   .bottom-top-txt h1 {
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
   }
 
   .bottom-top-txt p {
@@ -433,6 +429,7 @@ footer {
 
   .early-access {
     flex-direction: column;
+    width: 100%;
   }
 
   .left-early-access p {
@@ -467,7 +464,7 @@ footer {
     align-self: flex-start;
     gap: 3rem ;
   }
-
+}
 /* .attribution {
   font-size: 11px;
   text-align: center;
